@@ -18,3 +18,7 @@ psycopg2-binary
 python-dotenv
 
 Pillow>=9.0.0
+python-decouple
+dj-database-url
+mysqlclient
+django-tailwind

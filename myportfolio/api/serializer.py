@@ -31,5 +31,5 @@ class SkillSerializer(serializers.ModelSerializer):
 class ContactSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contact
-        fields = ["name ", "email","message", "submitted_at"] 
+        fields = ["name ", "email","message","phone", "submitted_at"] 
     
