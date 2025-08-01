@@ -4,7 +4,9 @@ import {AiOutlineClose} from "react-icons/ai";
 import { useState } from "react";
 import {HiMenuAlt1} from "react-icons/hi";
 import Project from "../pages/Project"
-// import Contact from "../pages/Contact";
+import Skills from "../pages/Skills";
+import Contact from "../pages/Contact";
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
   function Nav() {
 
   const [toggle,setToggle] = useState(false);
@@ -18,16 +20,18 @@ import Project from "../pages/Project"
   
   return (
 <>
-<div className="flex items-center justify-between px-10 py-6 bg-[#9cc5ed] text-white">
+
+<div className="flex items-center justify-between px-10 py-6 bg-[#222222] text-white">
    <div>
-    <a href="#" className="text-black font-mono text-3xl tracking-wider flex items-center"><CgNametag/>Portfolio</a>
+    <a href="#" className="text-white font-mono text-3xl tracking-wider flex items-center"><CgNametag/>Portfolio</a>
  </div> 
    <div className="space-x-4"> 
 <div className="sm:hidden lg:block space-x-2">
-      <a href="#" className="text-black hover:bg-indigo-800 rounded-full px-5 py-2 text-xl"> About</a>
-      <a href="#" className="text-black hover:bg-indigo-800 rounded-full px-5 py-2 text-xl"> Skills</a>
-      <a href="#" className="text-black hover:bg-indigo-800 rounded-full px-5 py-2 text-xl"> Project</a>
-        <a href="#" className="text-black hover:bg-indigo-800 rounded-full px-5 py-2 text-xl"> Contact</a>
+      <a href="#about" className="text-white hover:bg-white hover:text-black rounded-full px-5 py-2 text-xl"> About</a>
+  
+      <a href="#skills" className="text-white hover:bg-white hover:text-black rounded-full px-5 py-2 text-xl"> Skills</a>
+      <a href="#project" className="text-white hover:bg-white hover:text-black rounded-full px-5 py-2 text-xl"> Project</a>
+        <a href="#contact" className="text-white hover:bg-white hover:text-black rounded-full px-5 py-2 text-xl"> Contact</a>
 </div>
 <div className="sm:block lg:hidden">
   {toggle ? (

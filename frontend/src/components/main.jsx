@@ -13,10 +13,10 @@ import About from '../pages/About'
     <div>
        <Nav/>
        <Hero/>
-       <About />
-       <Skills />
-        <Project />
-       <Contact />
+       <About id = "about" />
+       <Skills  id = "skills"/>
+        <Project id = "project" />
+       <Contact  id = "contact"/>
        <Footer />
        </div>
   )

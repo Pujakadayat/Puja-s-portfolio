@@ -6,13 +6,14 @@ import Project3 from "../assets/Project3.png"
 function Project(){
     return (
         <>
-        <div className=" bg-[#efaad9] m-20 max-w-full">
+        <section id = "project" >
+ <div className=" bg-[#f7f7f9] m-20 max-w-full">
     <div className='grid justify-items-center m-10'>
         <h1 className='text-5xl text-black mt-10'> Project</h1>
     </div>
 <div>
  <div className='grid grid-cols-2 gap-4 p-5' >
-        <div className='max-w-md mx-auto bg-[#83a5d5] rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse border-2 border-gray-800 hover:bg-purple-600 transition duration-300'>
+        <div className='max-w-md mx-auto bg-[#e7ebef] rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse border-2 border-gray-800 hover:bg-[#d4bcc9] transition duration-300'>
 
 
 <div className='md:flex'>
@@ -20,10 +21,12 @@ function Project(){
         <div className='uppercase tracking-wide text-xl to-indigo-500 font-semibold '>
            Winkle 
         </div>
-        <a href='#'> Multi-Vendor E-Commerce System</a>
+        <a href='https://github.com/Pujakadayat/Winkel'> Multi-Vendor E-Commerce System</a>
         <p className='mt-2 text-black-500'>
-        Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, 
-        a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, 
+     Developed a multi-vendor e-commerce system using flutter and firebase.
+     {/* following agile developement methodology 
+     to create platform that connects local vendors with customers, featuring distinct user roles(admin,vendor,buyer). 
+     A structured vendor verification system and comprehensive functionality including product management, order processing, and payment intergration. */}
         </p>
     </div>
     <div className='md:shrink-0 p-5'>
@@ -34,7 +37,7 @@ function Project(){
 
 </div>
         </div>
-        <div className='max-w-md mx-auto bg-[#d9c7b0] rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse border-2 border-gray-800 hover:bg-purple-600 transition duration-300'>
+        <div className='max-w-md mx-auto bg-[#e7ebef] rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse border-2 border-gray-800 hover:bg-[#d4bcc9] transition duration-300'>
 <div className='md:flex'>
       <div className='md:shrink-0 p-5'>
         <img src = {Project5}  alt = "Project5"  className= 'border-6 border-[#dfdfe1]' width = {150} height = {150}/>       
@@ -45,9 +48,8 @@ function Project(){
         </div>
         <a href='#'> E-Learning Platform</a>
         <p className='mt-2 text-black-500'>
-        Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, 
-        a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, 
-
+      
+      Kakshya is a student management  web application built using MERN stack.It streamline academic workflows by offerinf role-based access for students,teachers, and HODs(Gead of Department).
         </p>
     </div>
   
@@ -56,17 +58,15 @@ function Project(){
         </div>
 </div>
  <div className='grid grid-cols-2 gap-4 p-5' >
-        <div className='max-w-md mx-auto bg-[#d9c7b0] rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse border-2 border-gray-800 hover:bg-purple-600 transition duration-300'>
+        <div className='max-w-md mx-auto bg-[#e7ebef] rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse border-2 border-gray-800 hover:bg-[#d4bcc9] transition duration-300'>
 <div className='md:flex'>
     <div className='p-8'>
         <div className='uppercase tracking-wide text-xl to-indigo-500 font-semibold '>
            Yatra
         </div>
-        <a href='#'> A Travel Booking App</a>
+        <a href='https://github.com/Pujakadayat/yatra'> A Travel Booking App</a>
         <p className='mt-2 text-black-500'>
-        Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, 
-        a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, 
-        added, and removed to make it nonsensical and improper Latin.
+       "Yatra" a travel booking app developed using flutter for frontend and firebase for backend.
         </p>
     </div>
     <div className='md:shrink-0 p-5'>
@@ -77,7 +77,7 @@ function Project(){
 
 </div>
         </div>
-        <div className='max-w-md mx-auto bg-[#83a5d5] rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse border-2 border-gray-800 hover:bg-purple-600 transition duration-300'>
+        <div className='max-w-md mx-auto bg-[#e7ebef] rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse border-2 border-gray-800 hover:bg-[#d4bcc9] transition duration-300'>
 <div className='md:flex'>
       <div className='md:shrink-0 p-5'>
         <img src = {Project3}  alt = "Project3"  className= 'border-6 border-[#dfdfe1]' width = {150} height = {150}/>       
@@ -86,11 +86,10 @@ function Project(){
         <div className='uppercase tracking-wide text-xl to-indigo-500 font-semibold '>
           DataQuest 
         </div>
-        <a href='#'> Online Surveying platform</a>
+        <a href='https://github.com/Pujakadayat/dataQuest-1'> Online Surveying platform</a>
         <p className='mt-2 text-black-500'>
-        Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, 
-        a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, 
-        added, and removed to make it nonsensical and improper Latin.
+        DataQuest a public Surveying website developed using React.js and Node.js,
+        where users can create and share surveys, and view results in real-time.
         </p>
     </div>
   
@@ -105,6 +104,8 @@ function Project(){
         </div>
     </div>
 </div>
+        </section>
+       
         </>
 
 
