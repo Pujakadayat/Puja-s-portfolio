@@ -1,6 +1,0 @@
-env/
-venv/
-_site/
-.bundle/
-.python-version
-.jekyll-cache/
