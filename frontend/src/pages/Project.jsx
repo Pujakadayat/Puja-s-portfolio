@@ -3,6 +3,7 @@ import Project6 from '../assets/Project6.png';
 import Project5 from '../assets/Project5.png'
 import Project4 from "../assets/Project4.avif"
 import Project3 from "../assets/Project3.png"
+import kishan from "../assets/kishan.jpg"
 function Project(){
     return (
         <>
@@ -90,6 +91,24 @@ function Project(){
         <p className='mt-2 text-black-500'>
         DataQuest a public Surveying website developed using React.js and Node.js,
         where users can create and share surveys, and view results in real-time.
+        </p>
+    </div>
+  
+
+</div>
+        </div>
+        <div className='max-w-md mx-auto bg-[#e7ebef] rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse border-2 border-gray-800 hover:bg-[#d4bcc9] transition duration-300'>
+<div className='md:flex'>
+      <div className='md:shrink-0 p-5'>
+        <img src = {kishan}  alt = "kishan"  className= 'border-6 border-[#dfdfe1]' width = {150} height = {150}/>       
+    </div>
+    <div className='p-8'>
+        <div className='uppercase tracking-wide text-xl to-indigo-500 font-semibold '>
+          Kishan
+        </div>
+        <a href='https://github.com/Pujakadayat/Kishan'> Smart Agriculture  platform</a>
+        <p className='mt-2 text-black-500'>
+Kishan App is an online agricultural marketplace that connects farmers to consumers directly, eliminating the middleman and preserving trust and transparency.
         </p>
     </div>
   

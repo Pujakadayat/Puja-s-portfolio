@@ -8,7 +8,7 @@ function About(){
     <div className='max-w-4xl mx-auto text-center'>
         <h2 className='text-4xl font-bold mb-6'>About Me</h2>
         <p className='text-lg text-slate-600 mb-6'>
-            Let's build quality in programming with our services
+            I'm a Full Stack Developer, passionate about creating scalable, high performace  applications that deliver seamless user experiences.
         </p>
         <button className='bg-black text-white px-10 py-3 my-3 hover:bg-red-800 rounded-full transition duration-300'>
             Show More...
@@ -32,6 +32,14 @@ function About(){
                 className="border-4 p-2 rounded-full hover:bg-[#d9807a] transition"
             />
             </a>
+              < a href='https://www.linkedin.com/in/puja-kadayat-a77b64260/'
+            target='_blank'
+            rel= "noopener norefferrer"
+            > 
+            <BsLinkedin
+                size={40}
+                className="border-4 p-2 rounded-full hover:bg-[#d9807a] transition"
+            /></a>
             < a href='https://github.com/Pujakadayat'
             target='_blank'
             rel= "noopener norefferrer"
@@ -42,13 +50,7 @@ function About(){
             />
             </a>
            
-             < a href='https://www.linkedin.com/in/puja-kadayat-a77b64260/'
-            target='_blank'
-            rel= "noopener norefferrer"
-            > <BsLinkedin
-                size={40}
-                className="border-4 p-2 rounded-full hover:bg-[#d9807a] transition"
-            /></a>
+           
             
             </div> 
     </div>

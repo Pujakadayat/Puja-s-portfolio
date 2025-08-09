@@ -14,7 +14,7 @@ function Hero(){
   <h1 className="text-4xl" >Puja Kadayat</h1>
   <hr />
   <p className="mt-10 text-xl text-slate-500 font-libertinus text-black">
-    Website Developer,Tech Enthusiast</p> 
+    Full Stack  Developer,Tech Enthusiast</p> 
        <a href = {Puja} download = "PujaKadayat.pdf">
         <button className="bg-black text-white px-10 py-2 my-3  hover:bg-red-800 hover:text-white rounded-full">
             
