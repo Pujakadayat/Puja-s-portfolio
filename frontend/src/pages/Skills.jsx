@@ -7,6 +7,10 @@ import css from '../assets/css.png';
 import python from '../assets/python.jpeg';
 import Tilt from 'react-parallax-tilt';
 import C  from "../assets/c++.png"
+import mongodb from "../assets/mongodb.png"
+import mysql from "../assets/mysql.png"
+import sql from "../assets/sql.png"
+import firebase from "../assets/firebase.png"
 
 const skillsdata = [
     {
@@ -42,6 +46,26 @@ const skillsdata = [
         id: 6,
          name: "React",
         image: react,
+    },
+    {
+        id: 7,
+         name: "Mysql",
+        image: mysql,
+    },
+      {
+        id: 8,
+         name: "SQL",
+        image: sql,
+    },
+      {
+        id: 9,
+         name: "Firebase",
+        image: firebase,
+    },
+      {
+        id: 10,
+         name: "MongoDB",
+        image: mongodb,
     }
 ];
 const SkillBox =({image,name}) => {
@@ -72,10 +96,7 @@ function Skills(){
                    
                 </header>
                 <div 
-                className="z-10 flex overflow-x-auto scrollbar-hide space-x-6 px-4 pb-6"
-                style={{
-                    WebkitOverflowScrolling: 'touch',
-                }}>
+                className="z-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 px-4">
                 {skillsdata.map((skill) =>{
                   return (
 <SkillBox 
