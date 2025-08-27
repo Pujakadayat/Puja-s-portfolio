@@ -11,6 +11,7 @@ import mongodb from "../assets/mongodb.png"
 import mysql from "../assets/mysql.png"
 import sql from "../assets/sql.png"
 import firebase from "../assets/firebase.png"
+import fastapi from "../assets/fastapi.png"
 
 const skillsdata = [
     {
@@ -66,6 +67,11 @@ const skillsdata = [
         id: 10,
          name: "MongoDB",
         image: mongodb,
+    },
+    {
+        id:11,
+        name:"FastApi",
+        image: fastapi
     }
 ];
 const SkillBox =({image,name}) => {
