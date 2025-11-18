@@ -12,7 +12,11 @@ import mysql from "../assets/mysql.png"
 import sql from "../assets/sql.png"
 import firebase from "../assets/firebase.png"
 import fastapi from "../assets/fastapi.png"
-
+import NumPy from "../assets/NumPy.png"
+import Numpy from "../assets/NumPy.svg"
+import Matplotlib from "../assets/Matplotlib.png"
+import pandas from "../assets/pandas.png"
+import powerbi from "../assets/powerbi.png"
 const skillsdata = [
     {
         id: 1,
@@ -72,7 +76,32 @@ const skillsdata = [
         id:11,
         name:"FastApi",
         image: fastapi
-    }
+    },
+     {
+        id:12,
+        name:"Numpy",
+        image: NumPy
+    },
+     {
+        id:13,
+        name:"Matplotlib",
+        image: Matplotlib
+    },
+     {
+        id:14,
+        name:"Pandas",
+        image: pandas
+    },
+      {
+        id:15,
+        name:"Powerbi",
+        image: powerbi
+    },
+      {
+        id:15,
+        name:"NumPy",
+        image: Numpy
+    },
 ];
 const SkillBox =({image,name}) => {
  return (
