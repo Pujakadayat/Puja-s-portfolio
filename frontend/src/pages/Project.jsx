@@ -12,6 +12,8 @@ import resume from "../assets/resume.png"
 import bank from "../assets/bank.png"
 import winkadmin from "../assets/winkadmin.png"
 import dm from "../assets/dm.png"
+import ds from "../assets/ds.png"
+import blog from "../assets/blog.png"
 
 const projectData = [
   {
@@ -24,7 +26,7 @@ const projectData = [
   {
     name: "Kakshya",
     img: Project5,
-    link: "https://github.com/Pujakadayat/Winkel",
+    link: "https://github.com/Pujakadayat/Classroom",
     desc: "Student management system using MERN providing role-based access for students, teachers and HODs.",
     category: "Web Development"
   },
@@ -87,7 +89,7 @@ const projectData = [
   {
     name: "Data Analysis With SQL",
     link: "https://github.com/Pujakadayat/Data-Analysis-With-Sql",
-    img: "https://raw.githubusercontent.com/Pujakadayat/Data-Analysis-With-Sql/main/sample.png",
+    img: ds,
     desc: "Explored sales data using SQL including JOINs, CTEs, window functions and aggregate analytics.",
     category: "Python"
   },
@@ -100,7 +102,7 @@ const projectData = [
 },
 {
     name: "MyBlog",
-    img: "https://raw.githubusercontent.com/Pujakadayat/MyBlog/main/sample.png",
+    img: blog,
     link: "https://github.com/Pujakadayat/MyBlog",
     desc: "Personal blogging platform built with React and Node.js to publish, edit and manage blog posts.",
     category: "Web Development"

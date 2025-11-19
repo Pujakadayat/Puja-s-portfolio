@@ -8,7 +8,7 @@ function About(){
     <div className='max-w-4xl mx-auto text-center'>
         <h2 className='text-4xl font-bold mb-6'>About Me</h2>
         <p className='text-lg text-slate-600 mb-6'>
-            I'm a Full Stack Developer, passionate about creating scalable, high performace  applications that deliver seamless user experiences.
+I am a final-year Computer Science student with a passion for building real-world solutions through software and data. I enjoy developing applications that solve problems, as well as analyzing data to extract insights that support better decisions. My projects range from full-stack applications to data-driven dashboards
         </p>
         <button className='bg-black text-white px-10 py-3 my-3 hover:bg-red-800 rounded-full transition duration-300'>
             Show More...
