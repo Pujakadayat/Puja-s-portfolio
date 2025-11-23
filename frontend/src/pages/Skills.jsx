@@ -97,11 +97,7 @@ const skillsdata = [
         name:"Powerbi",
         image: powerbi
     },
-      {
-        id:15,
-        name:"NumPy",
-        image: Numpy
-    },
+   
 ];
 const SkillBox =({image,name}) => {
  return (
