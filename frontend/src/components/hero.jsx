@@ -1,5 +1,6 @@
 import { useState,useEffect } from "react";
-import   HeroPic from "../sdcv.pdf";
+import   HeroPic from "../assets/pujaapp.png"
+import Puja from "../assets/puja.pdf";
 
 function Hero(){
     return (
