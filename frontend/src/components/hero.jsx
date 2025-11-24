@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
 import   HeroPic from "../assets/pujaapp.png"
-import Puja from "../assets/puja.pdf";
+import Puja from "../assets/Pu.pdf.pdf";
 
 function Hero(){
     return (
