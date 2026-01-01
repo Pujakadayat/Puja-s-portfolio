@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react";
 import   HeroPic from "../assets/pujaapp.png"
 import Puja from "../assets/Pu.pdf.pdf";
-
+import pp from "../assets/pp.pdf"
 function Hero(){
     return (
 <section className="flex justify-around items-center p-5 space-x-10 lg:flex-row ssm:flex-col ssm:space-y-10 bg-[linear-gradient(180deg,_#f7f7f9,_#ffffff)] text-black">
@@ -19,7 +19,7 @@ function Hero(){
   <hr />
   <p className="mt-10 text-xl text-slate-500 font-libertinus text-black">
     Software Developer,Tech Enthusiast</p> 
-       <a href = {Puja} download = "PujaKadayat.pdf">
+       <a href = {pp} download = "PujaKadayat.pdf">
         <button className="bg-black text-white px-10 py-2 my-3  hover:bg-red-800 hover:text-white rounded-full">
             
             Download CV

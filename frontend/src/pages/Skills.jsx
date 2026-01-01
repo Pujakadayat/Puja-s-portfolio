@@ -5,6 +5,7 @@ import react from '../assets/react.svg';
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 import python from '../assets/python.jpeg';
+import js from "../assets/js.webp"
 import Tilt from 'react-parallax-tilt';
 import C  from "../assets/c++.png"
 import mongodb from "../assets/mongodb.png"
@@ -45,6 +46,12 @@ const skillsdata = [
         id: 5,
         name: "CSS",
         image: css,
+        
+    },
+      {
+        id: 6,
+        name: "Javascript",
+        image: js,
         
     },
     {

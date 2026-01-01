@@ -14,6 +14,9 @@ import winkadmin from "../assets/winkadmin.png"
 import dm from "../assets/dm.png"
 import ds from "../assets/ds.png"
 import blog from "../assets/blog.png"
+import blinkit from "../assets/blinkit.png"
+import hospital from "../assets/hospital.jpg"
+
 
 const projectData = [
   {
@@ -58,13 +61,7 @@ const projectData = [
     desc: "Gamified flashcard app teaching English words through Nepalese cultural examples and illustrations.",
     category: "Hackathon"
   },
-  {
-    name: "Customer Trend Data Analysis",
-    link: "https://github.com/Pujakadayat/Customer_trend_data_analysis",
-    img: cusbehave,
-    desc: "Analyzed customer purchase trends using Python and SQL with cohort and retention analysis.",
-    category: "Python"
-  },
+
   {
     name: "Banking Customer Data Analysis",
     link: "https://github.com/Pujakadayat/Banking_Customer_data_Analysis",
@@ -72,20 +69,36 @@ const projectData = [
     desc: "Studied banking customer demographics to identify churn drivers, credit behavior and loan patterns.",
     category: "Python"
   },
+
   {
-    name: "Google Data Analysis",
-    link: "https://github.com/Pujakadayat/Google-Data-Analysis",
-    img: google,
-    desc: "Performed EDA and business case analytics using Python + SQL based on Google Data Analytics workflow.",
+    name: "Blinkit Sales Analysis",
+    img: blinkit,
+    link: "https://github.com/Pujakadayat/BlinkIT-Data-Analysis",
+    desc: "Sales and customer insights analysis for Blinkit using SQL, Python, and Power BI with clear KPIs and dashboards.",
+    category: "Python"
+},
+
+{
+    name: "Dashboard DataMining",
+    img: dm,
+    link: "https://github.com/Pujakadayat/Dashboard_datamining",
+    desc: "Interactive dashboard developed for visualizing and exploring data-mining algorithm results using Python and Dash.",
+    category: "Python"
+},
+  {
+    name: "Customer Trend Data Analysis",
+    link: "https://github.com/Pujakadayat/Customer_trend_data_analysis",
+    img: cusbehave,
+    desc: "Analyzed customer purchase trends using Python and SQL with cohort and retention analysis.",
     category: "Python"
   },
-  {
-    name: "Netflix Movie Data Analysis",
-    link: "https://github.com/Pujakadayat/Netflix-movie-data-analysis",
-    img: netflix,
-    desc: "Analyzed Netflix movie dataset to identify viewer preferences, time trends and most popular genres.",
+{
+    name: "Hospital Readmission Analysis (CMS Healthcare Data)",
+    img: hospital,
+    link: "https://github.com/Pujakadayat/USA-Healthcare-Data-Analysis",
+    desc: "Hospital data exploration using Python, focusing on cleaning, trends, and simple visual insights.",
     category: "Python"
-  },
+},
   {
     name: "Data Analysis With SQL",
     link: "https://github.com/Pujakadayat/Data-Analysis-With-Sql",
@@ -107,20 +120,27 @@ const projectData = [
     desc: "Personal blogging platform built with React and Node.js to publish, edit and manage blog posts.",
     category: "Web Development"
 },
-{
-    name: "Dashboard DataMining",
-    img: dm,
-    link: "https://github.com/Pujakadayat/Dashboard_datamining",
-    desc: "Interactive dashboard developed for visualizing and exploring data-mining algorithm results using Python and Dash.",
-    category: "Python"
-},
+
 {
     name: "Winkler-Admin",
     img:winkadmin,
     link: "https://github.com/Pujakadayat/Winkler-admin",
     desc: "Admin panel for the Winkle e-commerce platform to manage vendors, products and orders built with React and Firebase.",
     category: "Web Development"
-}
+} , {
+    name: "Netflix Movie Data Analysis",
+    link: "https://github.com/Pujakadayat/Netflix-movie-data-analysis",
+    img: netflix,
+    desc: "Analyzed Netflix movie dataset to identify viewer preferences, time trends and most popular genres.",
+    category: "Python"
+  },
+    {
+    name: "Google Data Analysis",
+    link: "https://github.com/Pujakadayat/Google-Data-Analysis",
+    img: google,
+    desc: "Performed EDA and business case analytics using Python + SQL based on Google Data Analytics workflow.",
+    category: "Python"
+  },
 
 ];
 
